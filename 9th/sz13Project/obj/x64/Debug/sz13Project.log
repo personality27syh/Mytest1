@@ -1,0 +1,354 @@
+﻿生成启动时间为 2019/6/27 16:51:05。
+     1>项目“D:\ProgramData\vs2015\sz13Project\sz13Project\sz13Project.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\sz13Project.tlog\sz13Project.lastbuildstate”。
+       _RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         正在对“D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\sz13Project.tlog\unsuccessfulbuild”执行 Touch 任务。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.14.47'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\BaseASN1.cpp' to '/home/deng/projects/sz13Project/BaseASN1.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp' to '/home/deng/projects/sz13Project/ClientOperation.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\Codec.cpp' to '/home/deng/projects/sz13Project/Codec.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\FactoryCodec.cpp' to '/home/deng/projects/sz13Project/FactoryCodec.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ItcastLog.cpp' to '/home/deng/projects/sz13Project/ItcastLog.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RequestCodec.cpp' to '/home/deng/projects/sz13Project/RequestCodec.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RequestFactory.cpp' to '/home/deng/projects/sz13Project/RequestFactory.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RespondCodec.cpp' to '/home/deng/projects/sz13Project/RespondCodec.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RespondFactory.cpp' to '/home/deng/projects/sz13Project/RespondFactory.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\SecKeyShm.cpp' to '/home/deng/projects/sz13Project/SecKeyShm.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\SequenceASN1.cpp' to '/home/deng/projects/sz13Project/SequenceASN1.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp' to '/home/deng/projects/sz13Project/ServerOperation.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ShareMemory.cpp' to '/home/deng/projects/sz13Project/ShareMemory.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\TcpServer.cpp' to '/home/deng/projects/sz13Project/TcpServer.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\TcpSocket.cpp' to '/home/deng/projects/sz13Project/TcpSocket.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\test.cpp' to '/home/deng/projects/sz13Project/test.cpp'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\BaseASN1.h' to '/home/deng/projects/sz13Project/BaseASN1.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.h' to '/home/deng/projects/sz13Project/ClientOperation.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\Codec.h' to '/home/deng/projects/sz13Project/Codec.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\FactoryCodec.h' to '/home/deng/projects/sz13Project/FactoryCodec.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ItcastLog.h' to '/home/deng/projects/sz13Project/ItcastLog.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RequestCodec.h' to '/home/deng/projects/sz13Project/RequestCodec.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RequestFactory.h' to '/home/deng/projects/sz13Project/RequestFactory.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RespondCodec.h' to '/home/deng/projects/sz13Project/RespondCodec.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\RespondFactory.h' to '/home/deng/projects/sz13Project/RespondFactory.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\SecKeyShm.h' to '/home/deng/projects/sz13Project/SecKeyShm.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\SequenceASN1.h' to '/home/deng/projects/sz13Project/SequenceASN1.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.h' to '/home/deng/projects/sz13Project/ServerOperation.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\ShareMemory.h' to '/home/deng/projects/sz13Project/ShareMemory.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\TcpServer.h' to '/home/deng/projects/sz13Project/TcpServer.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\TcpSocket.h' to '/home/deng/projects/sz13Project/TcpSocket.h'
+         Copying file 'D:\ProgramData\vs2015\sz13Project\sz13Project\Makefile' to '/home/deng/projects/sz13Project/Makefile'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/BaseASN1.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/BaseASN1.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         BaseASN1.cpp
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_GetLengthInfo(ITCAST_ANYBUF*, int*, int*)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:112:22: 警告：‘int’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+              iSizeOf = *pData & ITCAST_DER_FIRST_NOT_ID_MASK;
+                               ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_Low_GetLengthInfo(ITCAST_UINT8**, ITCAST_UINT32**, ITCAST_UINT32**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:148:33: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+                  cSizeOf = *(pMidData++) & ITCAST_DER_FIRST_NOT_ID_MASK;
+                                          ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_Low_WriteTagAndLength(ITCAST_ANYBUF*, ITCAST_UINT8, ITCAST_ANYBUF**, ITCAST_UINT8**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:360:53: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+                  cIdentifier = DER_ITASN1_LOW_IDENTIFIER(cTag);
+                                                              ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp:374:55: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+                  *(pMidValue++) = ITCAST_DER_FIRST_YES_ID_MASK | (ITCAST_UINT8)(iMidSizeOf - 1);
+                                                                ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_WriteInteger(ITCAST_UINT32, ITASN1_INTEGER**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:494:44: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              ITCAST_UINT8 *pMidUint8 = NULL, cTag = ITCAST_DER_INTEGER;
+                                                     ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_WriteBitString(ITASN1_BITSTRING*, ITASN1_BITSTRING**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:577:25: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              ITCAST_UINT8 cTag = ITCAST_DER_BITSTRING;
+                                  ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_WriteSequence(ITASN1_SEQUENCE*, ITCAST_ANYBUF**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:796:25: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              ITCAST_UINT8 cTag = ITCAST_DER_SEQUENCE;
+                                  ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp:817:55: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+                  *(pMidValue++) = ITCAST_DER_FIRST_YES_ID_MASK | ((ITCAST_UINT8)(lSizeOf - 1));
+                                                                ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_ReadSequence(ITCAST_ANYBUF*, ITASN1_SEQUENCE**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:920:18: 警告：‘int’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              lTotalLength = *pLengthValue;
+                           ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp:987:22: 警告：‘int’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+                  lTotalLength -= lMidLength;
+                               ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘ITCAST_INT BaseASN1::DER_ItAsn1_WriteNull(ITCAST_ANYBUF**)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:1017:55: 警告：‘ITCAST_UINT8 {aka unsigned char}’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              ITCAST_UINT8 *pMidValue = NULL, *pMidSite, cTag = ITCAST_DER_NULL;
+                                                                ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘int BaseASN1::DecodeUnsignedChar(ITCAST_ANYBUF*, unsigned char**, int*)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:1250:15: 警告：‘int’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              *pDataLen = pTmp->dataLen;
+                        ^
+         /home/deng/projects/sz13Project/BaseASN1.cpp: 在成员函数‘int BaseASN1::DecodeChar(ITCAST_ANYBUF*, char**, int*)’中:
+         /home/deng/projects/sz13Project/BaseASN1.cpp:1351:15: 警告：‘int’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+              *pDataLen = pTmp->dataLen;
+                        ^
+         
+         Done compiling '/home/deng/projects/sz13Project/BaseASN1.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/ClientOperation.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/ClientOperation.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         ClientOperation.cpp
+         Done compiling '/home/deng/projects/sz13Project/ClientOperation.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/Codec.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/Codec.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         Codec.cpp
+         Done compiling '/home/deng/projects/sz13Project/Codec.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/FactoryCodec.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/FactoryCodec.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         FactoryCodec.cpp
+         Done compiling '/home/deng/projects/sz13Project/FactoryCodec.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/ItcastLog.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/ItcastLog.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         ItcastLog.cpp
+         Done compiling '/home/deng/projects/sz13Project/ItcastLog.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/RequestCodec.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/RequestCodec.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         RequestCodec.cpp
+         Done compiling '/home/deng/projects/sz13Project/RequestCodec.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/RequestFactory.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/RequestFactory.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         RequestFactory.cpp
+         Done compiling '/home/deng/projects/sz13Project/RequestFactory.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/RespondCodec.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/RespondCodec.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         RespondCodec.cpp
+         Done compiling '/home/deng/projects/sz13Project/RespondCodec.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/RespondFactory.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/RespondFactory.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         RespondFactory.cpp
+         Done compiling '/home/deng/projects/sz13Project/RespondFactory.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/SecKeyShm.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/SecKeyShm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         SecKeyShm.cpp
+         Done compiling '/home/deng/projects/sz13Project/SecKeyShm.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/SequenceASN1.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/SequenceASN1.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         SequenceASN1.cpp
+         Done compiling '/home/deng/projects/sz13Project/SequenceASN1.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/ServerOperation.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         ServerOperation.cpp
+         Done compiling '/home/deng/projects/sz13Project/ServerOperation.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/ShareMemory.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/ShareMemory.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         ShareMemory.cpp
+         Done compiling '/home/deng/projects/sz13Project/ShareMemory.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/TcpServer.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/TcpServer.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         TcpServer.cpp
+         Done compiling '/home/deng/projects/sz13Project/TcpServer.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/TcpSocket.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/TcpSocket.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         TcpSocket.cpp
+         Done compiling '/home/deng/projects/sz13Project/TcpSocket.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/deng/projects/sz13Project/test.cpp -g2 -gdwarf-2 -o "/home/deng/projects/sz13Project/obj/x64/Debug/test.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         test.cpp
+         Done compiling '/home/deng/projects/sz13Project/test.cpp'
+         /home/deng/projects/sz13Project/ClientOperation.cpp: 在成员函数‘int ClientOperation::secKeyAgree()’中:
+         /home/deng/projects/sz13Project/ClientOperation.cpp:84:41: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = HMAC_Init_ex(ctx, key, strlen(key), EVP_sha256(), NULL);
+                                                  ^
+         /home/deng/projects/sz13Project/ClientOperation.cpp: 在成员函数‘void ClientOperation::getRandString(int, char*)’中:
+         /home/deng/projects/sz13Project/ClientOperation.cpp:282:19: 警告：‘unsigned int’转换自‘time_t {aka long int}’时可能改变值 [-Wconversion]
+           srandom(time(NULL));
+                            ^
+         /home/deng/projects/sz13Project/ClientOperation.cpp:289:18: 警告：‘int’转换自‘long int’时可能改变值 [-Wconversion]
+            tag = random() % 4;
+                           ^
+         /home/deng/projects/sz13Project/ClientOperation.cpp:295:31: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = random() % 26 + 'A';
+                                        ^
+         /home/deng/projects/sz13Project/ClientOperation.cpp:300:31: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = random() % 26 + 'a';
+                                        ^
+         /home/deng/projects/sz13Project/ClientOperation.cpp:305:31: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = random() % 10 + '0';
+                                        ^
+         /home/deng/projects/sz13Project/ItcastLog.cpp: 在成员函数‘int ItcastLog::ITCAST_Error_GetCurTime(char*)’中:
+         /home/deng/projects/sz13Project/ItcastLog.cpp:39:12: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+              return timeLen;
+                     ^
+         /home/deng/projects/sz13Project/RequestCodec.cpp: 在成员函数‘virtual int RequestCodec::msgEncode(char**, int&)’中:
+         /home/deng/projects/sz13Project/RequestCodec.cpp:50:73: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(mRequestMsg->clientId, strlen(mRequestMsg->clientId));
+                                                                                  ^
+         /home/deng/projects/sz13Project/RequestCodec.cpp:58:73: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(mRequestMsg->authCode, strlen(mRequestMsg->authCode));
+                                                                                  ^
+         /home/deng/projects/sz13Project/RequestCodec.cpp:66:73: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(mRequestMsg->serverId, strlen(mRequestMsg->serverId));
+                                                                                  ^
+         /home/deng/projects/sz13Project/RequestCodec.cpp:74:61: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(mRequestMsg->r1, strlen(mRequestMsg->r1));
+                                                                      ^
+         /home/deng/projects/sz13Project/RespondCodec.cpp: 在成员函数‘virtual int RespondCodec::msgEncode(char**, int&)’中:
+         /home/deng/projects/sz13Project/RespondCodec.cpp:52:59: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(pMsg->clientId, strlen(pMsg->clientId));
+                                                                    ^
+         /home/deng/projects/sz13Project/RespondCodec.cpp:60:59: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(pMsg->serverId, strlen(pMsg->serverId));
+                                                                    ^
+         /home/deng/projects/sz13Project/RespondCodec.cpp:68:47: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+           ret = writeNextNode(pMsg->r2, strlen(pMsg->r2));
+                                                        ^
+         /home/deng/projects/sz13Project/SecKeyShm.cpp: 在构造函数‘SecKeyShm::SecKeyShm(int, int)’中:
+         /home/deng/projects/sz13Project/SecKeyShm.cpp:15:69: 警告：‘int’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+          SecKeyShm::SecKeyShm(int key, int maxNode):ShareMemory(key, maxNode * sizeof(NodeShmInfo)),mMaxNode(maxNode)
+                                                                              ^
+         /home/deng/projects/sz13Project/SecKeyShm.cpp: 在构造函数‘SecKeyShm::SecKeyShm(char*, int)’中:
+         /home/deng/projects/sz13Project/SecKeyShm.cpp:27:82: 警告：‘int’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+          SecKeyShm::SecKeyShm(char * pathName, int maxNode):ShareMemory(pathName, maxNode * sizeof(NodeShmInfo)), mMaxNode(maxNode)
+                                                                                           ^
+         /home/deng/projects/sz13Project/SequenceASN1.cpp: 在成员函数‘int SequenceASN1::packSequence(char**, int&)’中:
+         /home/deng/projects/sz13Project/SequenceASN1.cpp:219:9: 警告：‘int’转换自‘ITCAST_UINT32 {aka long unsigned int}’时可能改变值 [-Wconversion]
+           outLen = m_tmp->dataLen;
+                  ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp: 在函数‘void* myroute(void*)’中:
+         /home/deng/projects/sz13Project/ServerOperation.cpp:70:49: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+            ret = HMAC_Init_ex(ctx, (void*)key, strlen(key), EVP_sha256(), NULL);
+                                                          ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp: 在成员函数‘void ServerOperation::startWork()’中:
+         /home/deng/projects/sz13Project/ServerOperation.cpp:225:6: 警告：未使用的变量‘ret’ [-Wunused-variable]
+           int ret = -1;
+               ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp: 在成员函数‘void ServerOperation::getRandString(int, char*)’中:
+         /home/deng/projects/sz13Project/ServerOperation.cpp:388:19: 警告：‘unsigned int’转换自‘time_t {aka long int}’时可能改变值 [-Wconversion]
+           srandom(time(NULL));
+                            ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp:396:18: 警告：‘int’转换自‘long int’时可能改变值 [-Wconversion]
+            tag = random() % 4;
+                           ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp:401:21: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = 'A' + random() % 26;
+                              ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp:406:21: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = 'a' + random() % 26;
+                              ^
+         /home/deng/projects/sz13Project/ServerOperation.cpp:411:21: 警告：‘char’转换自‘long int’时可能改变值 [-Wconversion]
+             randBuf[i] = '0' + random() % 10;
+                              ^
+         /home/deng/projects/sz13Project/TcpSocket.cpp: 在成员函数‘int TcpSocket::readn(void*, int)’中:
+         /home/deng/projects/sz13Project/TcpSocket.cpp:445:17: 警告：‘int’转换自‘size_t {aka long unsigned int}’时可能改变值 [-Wconversion]
+             return count - nleft;
+                          ^
+         /home/deng/projects/sz13Project/test.cpp: 在函数‘int main()’中:
+         /home/deng/projects/sz13Project/test.cpp:18:6: 警告：未使用的变量‘ret’ [-Wunused-variable]
+           int ret = -1;
+               ^
+         
+       Link:
+         Linking objects
+         Invoking 'ld'
+         g++ -o "/home/deng/projects/sz13Project/bin/x64/Debug/sz13Project.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/deng/projects/sz13Project/obj/x64/Debug/BaseASN1.o /home/deng/projects/sz13Project/obj/x64/Debug/ClientOperation.o /home/deng/projects/sz13Project/obj/x64/Debug/Codec.o /home/deng/projects/sz13Project/obj/x64/Debug/FactoryCodec.o /home/deng/projects/sz13Project/obj/x64/Debug/ItcastLog.o /home/deng/projects/sz13Project/obj/x64/Debug/RequestCodec.o /home/deng/projects/sz13Project/obj/x64/Debug/RequestFactory.o /home/deng/projects/sz13Project/obj/x64/Debug/RespondCodec.o /home/deng/projects/sz13Project/obj/x64/Debug/RespondFactory.o /home/deng/projects/sz13Project/obj/x64/Debug/SecKeyShm.o /home/deng/projects/sz13Project/obj/x64/Debug/SequenceASN1.o /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o /home/deng/projects/sz13Project/obj/x64/Debug/ShareMemory.o /home/deng/projects/sz13Project/obj/x64/Debug/TcpServer.o /home/deng/projects/sz13Project/obj/x64/Debug/TcpSocket.o /home/deng/projects/sz13Project/obj/x64/Debug/test.o
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ClientOperation.o：在函数‘ClientOperation : error : secKeyAgree()’中：
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 74：对‘HMAC_CTX_new’未�义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 84：对‘EVP_sha256’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 84：对‘HMAC_Init_ex��未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 92：对‘HMAC_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 101：对‘HMAC_Final’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 117：对‘HMAC_CTX_free’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 162：对‘SHA512_Init’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 170：对‘SHA512_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 177：对‘SHA512_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 187：对‘SHA512_Final’未定义的引用
+D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o：在函数‘myroute(void*)’中：
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 59：对‘HMAC_CTX_new’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 70：对‘EVP_sha256’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 70：对‘HMAC_Init_ex’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 78：对‘HMAC_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 90：对‘HMAC_Final’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 107：对‘HMAC_CTX_free’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ServerOperation.o：在函数‘ServerOperation : error : startWork()’中：
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 251：对‘pthread_create’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 254：对‘pthread_detach’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ServerOperation.o：在函数‘ServerOperation : error : secKeyAgree(RequestMsg*, char**, int&)’中：
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 305：对‘SHA512_Init’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 313：对‘SHA512_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 320：对‘SHA512_Update’未定义的引用
+     1>D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 329：对‘SHA512_Final’未定义的引用
+     1>collect2 : error : 错误：ld 返回 1
+         /home/deng/projects/sz13Project/obj/x64/Debug/ClientOperation.o：在函数‘ClientOperation::secKeyAgree()’中：
+         /home/deng/projects/sz13Project/ClientOperation.cpp:74：对‘HMAC_CTX_new’未�义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:84：对‘EVP_sha256’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:84：对‘HMAC_Init_ex��未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:92：对‘HMAC_Update’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:101：对‘HMAC_Final’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:117：对‘HMAC_CTX_free’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:162：对‘SHA512_Init’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:170：对‘SHA512_Update’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:177：对‘SHA512_Update’未定义的引用
+         /home/deng/projects/sz13Project/ClientOperation.cpp:187：对‘SHA512_Final’未定义的引用
+         /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o：在函数‘myroute(void*)’中：
+         /home/deng/projects/sz13Project/ServerOperation.cpp:59：对‘HMAC_CTX_new’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:70：对‘EVP_sha256’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:70：对‘HMAC_Init_ex’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:78：对‘HMAC_Update’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:90：对‘HMAC_Final’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:107：对‘HMAC_CTX_free’未定义的引用
+         /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o：在函数‘ServerOperation::startWork()’中：
+         /home/deng/projects/sz13Project/ServerOperation.cpp:251：对‘pthread_create’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:254：对‘pthread_detach’未定义的引用
+         /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o：在函数‘ServerOperation::secKeyAgree(RequestMsg*, char**, int&)’中：
+         /home/deng/projects/sz13Project/ServerOperation.cpp:305：对‘SHA512_Init’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:313：对‘SHA512_Update’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:320：对‘SHA512_Update’未定义的引用
+         /home/deng/projects/sz13Project/ServerOperation.cpp:329：对‘SHA512_Final’未定义的引用
+         collect2: 错误：ld 返回 1
+         
+         Done linking, output file name: '/home/deng/projects/sz13Project/bin/x64/Debug/sz13Project.out'
+     1>已完成生成项目“D:\ProgramData\vs2015\sz13Project\sz13Project\sz13Project.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+       “D:\ProgramData\vs2015\sz13Project\sz13Project\sz13Project.vcxproj”(Rebuild 目标) (1) ->
+       (Link 目标) -> 
+         D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ClientOperation.o：在函数‘ClientOperation : error : secKeyAgree()’中：
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 74：对‘HMAC_CTX_new’未�义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 84：对‘EVP_sha256’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 84：对‘HMAC_Init_ex��未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 92：对‘HMAC_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 101：对‘HMAC_Final’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 117：对‘HMAC_CTX_free’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 162：对‘SHA512_Init’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 170：对‘SHA512_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 177：对‘SHA512_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : 187：对‘SHA512_Final’未定义的引用
+       D:\ProgramData\vs2015\sz13Project\sz13Project\ClientOperation.cpp : error : /home/deng/projects/sz13Project/obj/x64/Debug/ServerOperation.o：在函数‘myroute(void*)’中：
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 59：对‘HMAC_CTX_new’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 70：对‘EVP_sha256’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 70：对‘HMAC_Init_ex’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 78：对‘HMAC_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 90：对‘HMAC_Final’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 107：对‘HMAC_CTX_free’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ServerOperation.o：在函数‘ServerOperation : error : startWork()’中：
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 251：对‘pthread_create’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 254：对‘pthread_detach’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\obj\x64\Debug\ServerOperation.o：在函数‘ServerOperation : error : secKeyAgree(RequestMsg*, char**, int&)’中：
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 305：对‘SHA512_Init’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 313：对‘SHA512_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 320：对‘SHA512_Update’未定义的引用
+         D:\ProgramData\vs2015\sz13Project\sz13Project\ServerOperation.cpp : error : 329：对‘SHA512_Final’未定义的引用
+         collect2 : error : 错误：ld 返回 1
+
+    0 个警告
+    26 个错误
+
+已用时间 00:00:22.77
