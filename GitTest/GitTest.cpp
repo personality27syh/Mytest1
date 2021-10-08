@@ -57,6 +57,9 @@ int main()
 	}
 
 	f3();
+
+	printf("hello\n");
+
 	return 0;
 }
 
